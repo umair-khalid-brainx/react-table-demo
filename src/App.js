@@ -267,7 +267,7 @@ export default function App() {
 	const data = useMemo(() => getData(), []);
 
 	return (
-		<section>
+				<section>
 			<Table columns={columns} data={data} />
 		</section>
 	);
